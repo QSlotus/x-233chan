@@ -140,21 +140,39 @@ class Manage {
 		}
 	}
 
-	/* Set mod cookies for boards */
-	function SetModerationCookies() {
-		global $tc_db, $tpl_page;
+        /* Set mod cookies for boards */
+        function SetModerationCookies() {
+                global $tc_db, $tpl_page;
 
-		if (isset($_SESSION['manageusername'])) {
-			$results = $tc_db->GetAll("SELECT HIGH_PRIORITY `boards` FROM `" . KU_DBPREFIX . "staff` WHERE `username` = " . $tc_db->qstr($_SESSION['manageusername']) . " LIMIT 1");
-			if ($this->CurrentUserIsAdministrator() || $results[0][0] == 'allboards') {
-				setcookie("kumod", "allboards", time() + 3600, KU_BOARDSFOLDER, KU_DOMAIN);
-			} else {
-				if ($results[0][0] != '') {
-					setcookie("kumod", $results[0][0], time() + 3600, KU_BOARDSFOLDER, KU_DOMAIN);
-				}
-			}
-		}
-	}
+                if (isset($_SESSION['manageusername'])) {
+                        $results = $tc_db->GetAll("SELECT HIGH_PRIORITY `boards` FROM `" . KU_DBPREFIX . "staff` WHERE `username` = " . $tc_db->qstr($_SESSION['manageusername']) . " LIMIT 1");
+                        if ($this->CurrentUserIsAdministrator() || $results[0][0] == 'allboards') {
+                                $this->SetModeratorCookie("allboards", time() + 3600);
+                        } else {
+                                if ($results[0][0] != '') {
+                                        $this->SetModeratorCookie($results[0][0], time() + 3600);
+                                }
+                        }
+                }
+        }
+
+        function SetModeratorCookie($value, $expire) {
+                $secure = (stripos(KU_BOARDSPATH, 'https://') === 0);
+                $options = array(
+                        'expires' => $expire,
+                        'path' => KU_BOARDSFOLDER,
+                        'domain' => KU_DOMAIN,
+                        'secure' => $secure,
+                        'httponly' => false,
+                        'samesite' => 'None'
+                );
+
+                if (PHP_VERSION_ID >= 70300) {
+                        setcookie('kumod', $value, $options);
+                } else {
+                        setcookie('kumod', $value, $expire, KU_BOARDSFOLDER . '; samesite=None', KU_DOMAIN, $secure);
+                }
+        }
   
   function CheckToken($posttoken) {
     if ($posttoken != $_SESSION['token']) {
@@ -164,18 +182,18 @@ class Manage {
     }
   }
 
-	/* Log current user out */
-	function Logout() {
-		global $tc_db, $tpl_page;
+                /* Log current user out */
+        function Logout() {
+                global $tc_db, $tpl_page;
 
-		setcookie('kumod', '', time() - 3600, KU_BOARDSFOLDER, KU_DOMAIN);
+                $this->SetModeratorCookie('', time() - 3600);
 
-		session_destroy();
-		unset($_SESSION['manageusername']);
-		unset($_SESSION['managepassword']);
+                session_destroy();
+                unset($_SESSION['manageusername']);
+                unset($_SESSION['managepassword']);
     unset($_SESSION['token']);
-		die('<script type="text/javascript">top.location.href = \''. KU_CGIPATH .'/manage.php\';</script>');
-	}
+                die('<script type="text/javascript">top.location.href = \''. KU_CGIPATH .'/manage.php\';</script>');
+        }
 
 		/* If the user logged in isn't an admin, kill the script */
 	function AdministratorsOnly() {
