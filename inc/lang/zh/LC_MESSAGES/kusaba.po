@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2007-12-09 03:10+0000\n"
 "PO-Revision-Date: 2008-03-10 04:45+0000\n"
-"Last-Translator: 冴月麟\n"
+"Last-Translator: qiusyan\n"
 "Language-Team: Chinese-zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,11 +12,149 @@ msgstr ""
 "X-Launchpad-Export-Date: 2008-03-12 04:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
+msgid "%d Boards"
+msgstr "%d 个版块"
+
+msgid "%s bans not shown."
+msgstr "未显示 %s 条封禁。"
+
+msgid "%s images shown."
+msgstr "显示了 %s 张图片。"
+
+msgid "%s posts shown."
+msgstr "显示了 %s 个帖子。"
+
+msgid "%s not implemented."
+msgstr "%s 未实现。"
+
+msgid "%s uploaded."
+msgstr "%s 已上传。"
+
 msgid "(for post and file deletion)"
-msgstr "(用以删除贴或者文件)"
+msgstr "（用于删除帖子和文件）"
+
+msgid "(note that this is a rough limit, more may be shown)"
+msgstr "（请注意，这是一个粗略限制，可能会显示更多）"
+
+msgid "<h2>Add News Post</h2>This message will be displayed as it is written, so make sure you add the proper HTML."
+msgstr "<h2>添加新闻帖</h2>此消息将按原样显示，请确保添加正确的 HTML。"
+
+msgid "A board with that name already exists."
+msgstr "已存在同名版块。"
+
+msgid "A board with that name does not exist."
+msgstr "不存在该名称的版块。"
+
+msgid "A common cause for this is an incorrect extension when the file is actually of a different type."
+msgstr "常见原因是文件扩展名错误，而实际文件类型不同。"
+
+msgid "A file is required for a new thread. If embedding is allowed, either a file or embed ID is required."
+msgstr "新主题需要文件。如果允许嵌入，则文件或嵌入 ID 二选一。"
+
+msgid "A live record for %s was not found; the file has been removed."
+msgstr "未找到 %s 的实时记录；文件已被移除。"
+
+msgid "A message is required to post without a file."
+msgstr "无文件发帖时需要输入消息。"
+
+msgid "A post with that ID does not exist."
+msgstr "该 ID 对应的帖子不存在。"
+
+msgid "A staff member with that ID already exists."
+msgstr "已存在该 ID 的工作人员。"
+
+msgid "A staff member with that id does not appear to exist."
+msgstr "该 ID 的工作人员似乎不存在。"
+
+msgid "Abbreviation (less then 10 characters)"
+msgstr "缩写（少于 10 个字符）"
+
+msgid "Abbreviation"
+msgstr "缩写"
+
+msgid "Action"
+msgstr "操作"
+
+msgid "Ad Edited"
+msgstr "广告已编辑"
+
+msgid "Ad Management"
+msgstr "广告管理"
+
+msgid "Add ban message"
+msgstr "添加封禁消息"
+
+msgid "Add ban"
+msgstr "添加封禁"
+
+msgid "Add Board"
+msgstr "添加版块"
+
+msgid "Add board"
+msgstr "添加版块"
+
+msgid "Add filetype"
+msgstr "添加文件类型"
+
+msgid "Add new blotter entry"
+msgstr "添加新记录条目"
+
+msgid "Add news"
+msgstr "添加新闻"
+
+msgid "Add Results"
+msgstr "添加结果"
+
+msgid "Add section"
+msgstr "添加分区"
+
+msgid "Add staff member"
+msgstr "添加工作人员"
+
+msgid "Add word"
+msgstr "添加词语"
 
 msgid "Add"
-msgstr "追加"
+msgstr "添加"
+
+msgid "Add/Delete boards"
+msgstr "添加/删除版块"
+
+msgid "Added a FAQ entry"
+msgstr "添加了 FAQ 条目"
+
+msgid "Added a news entry"
+msgstr "添加了新闻条目"
+
+msgid "Added a Rule entry"
+msgstr "添加了规则条目"
+
+msgid "Added an announcement"
+msgstr "添加了公告"
+
+msgid "Added an Embed"
+msgstr "添加了嵌入"
+
+msgid "Added board"
+msgstr "添加了版块"
+
+msgid "Added By"
+msgstr "添加者"
+
+msgid "Added on"
+msgstr "添加于"
+
+msgid "Added staff member"
+msgstr "添加了工作人员"
+
+msgid "Added word to wordfilter: %s - Changes to: %s - Boards: /%s/"
+msgstr "添加词语到词语过滤器：%s - 替换为：%s - 版块：/%s/"
+
+msgid "Added"
+msgstr "已添加"
+
+msgid "Admin"
+msgstr "管理员"
 
 msgid "Administration"
 msgstr "管理"
@@ -27,178 +165,2168 @@ msgstr "管理员"
 msgid "Administrators"
 msgstr "管理员组"
 
+msgid "All Boards"
+msgstr "所有版块"
+
 msgid "All boards"
-msgstr "所有板块"
+msgstr "所有版块"
+
+msgid "All threads on /%s/"
+msgstr "/%s/ 中的所有主题"
+
+msgid "All Threads"
+msgstr "所有主题"
+
+msgid "All threads/posts by that IP in selected boards successfully deleted."
+msgstr "已成功删除所选版块中该 IP 的所有主题/帖子。"
+
+msgid "Allow read"
+msgstr "允许读取"
+
+msgid "Allowed embeds"
+msgstr "允许的嵌入"
+
+msgid "Allowed filetypes"
+msgstr "允许的文件类型"
+
+msgid "Already posted %shere%s."
+msgstr "已在 %s此处%s 发布。"
+
+msgid "An image, or message, is required for a reply."
+msgstr "回复需要图片或消息。"
+
+msgid "An invalid applet was specified. Save a screenshot of your work in case of continued failure."
+msgstr "指定了无效的小程序。请保存工作截图，以防持续失败。"
+
+msgid "and"
+msgstr "和"
+
+msgid "Announcement edited"
+msgstr "公告已编辑"
+
+msgid "Announcement Management"
+msgstr "公告管理"
+
+msgid "Announcement successfully added."
+msgstr "公告添加成功。"
+
+msgid "Announcement successfully deleted"
+msgstr "公告删除成功"
+
+msgid "Announcements"
+msgstr "公告"
+
+msgid "Anonymous"
+msgstr "匿名"
+
+msgid "Anything can go here, such as banners, links, etc. It doesn't have to be just ads."
+msgstr "此处可放置任何内容，如横幅、链接等，不限于广告。"
+
+msgid "Appeal (days)"
+msgstr "申诉期限（天）"
+
+msgid "Appeal Message"
+msgstr "申诉消息"
+
+msgid "Appeal successfully denied."
+msgstr "申诉已拒绝。"
+
+msgid "Appeal:"
+msgstr "申诉："
+
+msgid "Appeals"
+msgstr "申诉"
+
+msgid "Archive"
+msgstr "归档"
+
+msgid "Are you absolutely sure you want to delete %s?"
+msgstr "您确定要删除 %s 吗？"
+
+msgid "Are you sure you want to delete and ban this poster?"
+msgstr "您确定要删除并封禁此发帖人吗？"
+
+msgid "Are you sure you want to delete this thread/post?"
+msgstr "您确定要删除此主题/帖子吗？"
+
+msgid "Area"
+msgstr "区域"
+
+msgid "At"
+msgstr "于"
+
+msgid "Average #minutes between posts (past week), boards without posts in past week not shown"
+msgstr "平均发帖间隔分钟数（过去一周），不显示过去一周无帖子的版块"
+
+msgid "back to board"
+msgstr "返回版块"
+
+msgid "Ban duration, reason, and appeal information"
+msgstr "封禁时长、原因及申诉信息"
+
+msgid "Ban file hash description"
+msgstr "封禁文件哈希描述"
+
+msgid "Ban file hash for"
+msgstr "封禁文件哈希："
+
+msgid "Ban file"
+msgstr "封禁文件"
+
+msgid "Ban from"
+msgstr "封禁自"
+
+msgid "Ban massage"
+msgstr "封禁消息"
+
+msgid "Ban message"
+msgstr "封禁消息"
+
+msgid "Ban proxy list"
+msgstr "封禁代理列表"
+
+msgid "Ban successfully placed."
+msgstr "封禁已生效。"
+
+msgid "Ban successfully removed."
+msgstr "封禁已解除。"
+
+msgid "Ban time"
+msgstr "封禁时间"
+
+msgid "Ban"
+msgstr "封禁"
+
+msgid "Banned %d IP addresses using an IP address list."
+msgstr "使用 IP 地址列表封禁了 %d 个 IP 地址。"
+
+msgid "Banned from"
+msgstr "封禁自"
+
+msgid "Banned md5 hash %s with a description of %s"
+msgstr "封禁了 MD5 哈希 %s，描述为 %s"
+
+msgid "Banned"
+msgstr "已封禁"
+
+msgid "Blacklisted link ( %s ) detected."
+msgstr "检测到黑名单链接（%s）。"
+
+msgid "Blotter entry added."
+msgstr "记录条目已添加。"
+
+msgid "Blotter entry deleted."
+msgstr "记录条目已删除。"
+
+msgid "Blotter entry updated."
+msgstr "记录条目已更新。"
+
+msgid "Blotter is disabled."
+msgstr "记录功能已禁用。"
+
+msgid "Blotter updated"
+msgstr "记录已更新"
+
+msgid "Blotter"
+msgstr "记录"
+
+msgid "Board options"
+msgstr "版块选项"
+
+msgid "Board successfully added."
+msgstr "版块添加成功。"
+
+msgid "Board successfully deleted."
+msgstr "版块删除成功。"
+
+msgid "Board type"
+msgstr "版块类型"
 
 msgid "Board"
-msgstr "板块"
+msgstr "版块"
+
+msgid "Boards Administration"
+msgstr "版块管理"
 
 msgid "Boards"
-msgstr "板块"
+msgstr "版块"
+
+msgid "Cache successfully flushed."
+msgstr "缓存已清空。"
+
+msgid "Can be left blank."
+msgstr "可留空。"
+
+msgid "Can not be left blank"
+msgstr "不能留空"
+
+msgid "Can not be left blank, or longer than 3 characters"
+msgstr "不能留空，且长度不能超过 3 个字符"
+
+msgid "Can not be left blank. This is what comes before the embed ID. Example: 'http://www.youtube.com/watch?v='"
+msgstr "不能留空。这是嵌入 ID 之前的部分。例如：'http://www.youtube.com/watch?v='"
+
+msgid "Can not be left blank."
+msgstr "不能留空。"
+
+msgid "Cancel"
+msgstr "取消"
 
 msgid "Captcha"
 msgstr "验证码"
 
 msgid "Catalog Mode"
-msgstr "概览模式"
+msgstr "目录模式"
+
+msgid "Change account password"
+msgstr "更改账户密码"
+
+msgid "Check for new version"
+msgstr "检查新版本"
+
+msgid "Child Pornography"
+msgstr "儿童色情"
+
+msgid "Choose one"
+msgstr "选择一个"
+
+msgid "Cleanup finished."
+msgstr "清理完成。"
+
+msgid "Cleanup"
+msgstr "清理"
+
+msgid "Clear All On Page As Reviewed"
+msgstr "将页面上所有标记为已审核"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Cleared APC cache"
+msgstr "已清除 APC 缓存"
+
+msgid "Click %shere%s to return to Ad Management."
+msgstr "点击 %s此处%s 返回广告管理。"
+
+msgid "Click Reply to view, or %sexpand%s."
+msgstr "点击回复查看，或 %s展开%s。"
 
 msgid "Click Reply to view."
-msgstr "点击回复来查看。"
+msgstr "点击回复查看。"
+
+msgid "Click to edit board options"
+msgstr "点击编辑版块选项"
+
+msgid "Click to show/hide"
+msgstr "点击显示/隐藏"
+
+msgid "Code"
+msgstr "代码"
+
+msgid "Compact list"
+msgstr "紧凑列表"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Could not copy uploaded image."
+msgstr "无法复制上传的图片。"
+
+msgid "Could not create thumbnail."
+msgstr "无法创建缩略图。"
+
+msgid "Current version:"
+msgstr "当前版本："
+
+msgid "Currently %1 unique user posts."
+msgstr "当前有 %1 个独立用户发帖。"
+
+msgid "Date Added"
+msgstr "添加日期"
 
 msgid "Date"
 msgstr "日期"
 
+msgid "Days to keep modlog entries"
+msgstr "管理日志保留天数"
+
+msgid "days"
+msgstr "天"
+
+msgid "Default style"
+msgstr "默认样式"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Delete &amp; Ban"
+msgstr "删除并封禁"
+
+msgid "Delete all posts by IP"
+msgstr "删除该 IP 的所有帖子"
+
+msgid "Delete all posts by this IP"
+msgstr "删除此 IP 的所有帖子"
+
+msgid "Delete board"
+msgstr "删除版块"
+
+msgid "Delete post"
+msgstr "删除帖子"
+
+msgid "Delete posts"
+msgstr "删除帖子"
+
+msgid "Delete Results"
+msgstr "删除结果"
+
+msgid "Delete thread"
+msgstr "删除主题"
+
+msgid "Delete thread/post"
+msgstr "删除主题/帖子"
+
 msgid "Delete"
 msgstr "删除"
 
-msgid "Delete post"
-msgstr "删除此贴"
+msgid "Deleted a FAQ entry"
+msgstr "删除了一个 FAQ 条目"
+
+msgid "Deleted a news entry"
+msgstr "删除了一个新闻条目"
+
+msgid "Deleted a Rules entry"
+msgstr "删除了一个规则条目"
+
+msgid "Deleted a VIP code"
+msgstr "删除了一个 VIP 代码"
+
+msgid "Deleted an announcement"
+msgstr "删除了一个公告"
+
+msgid "Deleted an Embed"
+msgstr "删除了一个嵌入"
+
+msgid "Deleted board"
+msgstr "删除了版块"
+
+msgid "Deleted post"
+msgstr "删除了帖子"
+
+msgid "Deleted posts by ip"
+msgstr "删除了该 IP 的帖子"
+
+msgid "Deleted staff member"
+msgstr "删除了工作人员"
+
+msgid "Deleted thread"
+msgstr "删除了主题"
+
+msgid "DELETED"
+msgstr "已删除"
+
+msgid "Deleting non-deleted replies which belong to deleted threads."
+msgstr "删除属于已删除主题且未被删除的回复。"
+
+msgid "Deleting unused images."
+msgstr "删除未使用的图片。"
+
+msgid "Denied the ban appeal for"
+msgstr "拒绝了封禁申诉："
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Directory"
+msgstr "目录"
+
+msgid "Disk space used"
+msgstr "已用磁盘空间"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Displayed"
+msgstr "已显示"
+
+msgid "Does not expire"
+msgstr "永不过期"
+
+msgid "Duplicate file entry detected."
+msgstr "检测到重复的文件条目。"
+
+msgid "Duplicate thread subject"
+msgstr "重复的主题标题"
+
+msgid "Duration:"
+msgstr "时长："
+
+msgid "Edit filetypes"
+msgstr "编辑文件类型"
+
+msgid "Edit sections"
+msgstr "编辑分区"
+
+msgid "Edit templates"
+msgstr "编辑模板"
+
+msgid "Edit word"
+msgstr "编辑词语"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit/Delete announcement"
+msgstr "编辑/删除公告"
+
+msgid "Edit/Delete Embeds"
+msgstr "编辑/删除嵌入"
+
+msgid "Edit/Delete FAQ Entries"
+msgstr "编辑/删除 FAQ 条目"
+
+msgid "Edit/Delete News"
+msgstr "编辑/删除新闻"
+
+msgid "Edit/Delete Rule Entries"
+msgstr "编辑/删除规则条目"
+
+msgid "Edit/Delete"
+msgstr "编辑/删除"
+
+msgid "Edited a FAQ entry"
+msgstr "编辑了 FAQ 条目"
+
+msgid "Edited a news entry"
+msgstr "编辑了新闻条目"
+
+msgid "Edited a Rule entry"
+msgstr "编辑了规则条目"
+
+msgid "Edited a VIP cod"
+msgstr "编辑了 VIP 代码"
+
+msgid "Edited an ad"
+msgstr "编辑了广告"
+
+msgid "Edited an announcement"
+msgstr "编辑了公告"
+
+msgid "Edited an embed"
+msgstr "编辑了嵌入"
 
 msgid "Email"
-msgstr "E-Mail"
+msgstr "电子邮件"
+
+msgid "Embed deleted"
+msgstr "嵌入已删除"
+
+msgid "Embed Edited"
+msgstr "嵌入已编辑"
+
+msgid "Embed Management"
+msgstr "嵌入管理"
+
+msgid "Embed successfully added."
+msgstr "嵌入添加成功。"
 
 msgid "Embed"
 msgstr "嵌入"
 
+msgid "Embedding only"
+msgstr "仅嵌入"
+
+msgid "Enable 'no file' posting"
+msgstr "启用“无文件”发帖"
+
+msgid "Enable archiving"
+msgstr "启用归档"
+
+msgid "Enable captcha"
+msgstr "启用验证码"
+
+msgid "Enable catalog"
+msgstr "启用目录"
+
+msgid "Enable reporting"
+msgstr "启用举报"
+
+msgid "Enable/disable captcha system for this board. If captcha is enabled, in order for a user to post, they must first correctly enter the text on an image."
+msgstr "启用/禁用此版块的验证码系统。如果启用验证码，用户发帖前必须正确输入图片中的文字。"
+
+msgid "Enable/disable thread archiving for this board (not available if load balancer is used). If enabled, when a thread is pruned or deleted through this panel with the archive checkbox checked, the thread and its images will be moved into the arch directory, found in the same directory as the board. To function properly, you must create and set proper permissions to /boardname/arch, /boardname/arch/res, /boardname/arch/src, and /boardname/arch/thumb"
+msgstr "启用/禁用此版块的主题归档（如果使用负载均衡器则不可用）。如果启用，当通过此面板清理或删除主题并勾选归档复选框时，该主题及其图片将被移动到 arch 目录（与版块目录同级）。要正常工作，您必须创建并设置以下目录的正确权限：/版块名/arch、/版块名/arch/res、/版块名/arch/src 和 /版块名/arch/thumb"
+
+msgid "Enclose text in {t}{/t} blocks to allow them to be translated for different languages."
+msgstr "将文本放在 {t}{/t} 块中，以便为不同语言进行翻译。"
+
+msgid "Entire Thread"
+msgstr "整个主题"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Error, it appears your file did not transfer properly. Please go back and try again."
+msgstr "错误：您的文件似乎未正确传输。请返回重试。"
+
+msgid "Error: That thread doesn't have a file associated with it."
+msgstr "错误：该主题没有关联的文件。"
+
+msgid "Error: The directory ./%s was not found and could not be created. Please notify the sites administrator with a copy of this error."
+msgstr "错误：目录 ./%s 未找到且无法创建。请将此错误信息通知网站管理员。"
+
+msgid "Expand all images"
+msgstr "展开所有图片"
+
+msgid "Expires"
+msgstr "过期时间"
+
+msgid "Expires:"
+msgstr "过期："
+
+msgid "Extension icon displayed, click image to open file."
+msgstr "显示扩展名图标，点击图片打开文件。"
+
+msgid "Failed to write file to disk."
+msgstr "写入文件到磁盘失败。"
+
+msgid "FAQ entry deleted"
+msgstr "FAQ 条目已删除"
+
+msgid "FAQ entry edited"
+msgstr "FAQ 条目已编辑"
+
+msgid "FAQ entry successfully added."
+msgstr "FAQ 条目添加成功。"
+
+msgid "FAQ Management"
+msgstr "FAQ 管理"
+
+msgid "FAQ"
+msgstr "常见问题"
+
+msgid "File hash bans"
+msgstr "文件哈希封禁"
+
+msgid "File Only"
+msgstr "仅文件"
+
+msgid "File successfully deleted."
+msgstr "文件删除成功。"
+
+msgid "File transfer failure. Please go back and try again."
+msgstr "文件传输失败。请返回重试。"
+
+msgid "File was not fully uploaded. Please go back and try again."
+msgstr "文件未完全上传。请返回重试。"
+
+msgid "File was not properly thumbnailed"
+msgstr "文件未正确生成缩略图"
+
 msgid "File"
-msgstr "图片文件名"
+msgstr "文件"
+
+msgid "File<br />Removed"
+msgstr "文件<br />已移除"
+
+msgid "Files"
+msgstr "文件"
+
+msgid "Filetype added."
+msgstr "文件类型已添加。"
+
+msgid "Filetype deleted."
+msgstr "文件类型已删除。"
+
+msgid "Filetype updated."
+msgstr "文件类型已更新。"
+
+msgid "Filetype"
+msgstr "文件类型"
+
+msgid "First 100 posts shown."
+msgstr "显示前 100 个帖子。"
+
+msgid "First 100 posts"
+msgstr "前 100 个帖子"
+
+msgid "first phrase here"
+msgstr "此处为第一个短语"
+
+msgid "First Post ID"
+msgstr "首帖 ID"
+
+msgid "for the following reason"
+msgstr "原因如下"
+
+msgid "Forced anonymous"
+msgstr "强制匿名"
+
+msgid "forever"
+msgstr "永久"
+
+msgid "Frames removed"
+msgstr "已移除框架"
+
+msgid "From"
+msgstr "从"
+
+msgid "Front Page"
+msgstr "首页"
+
+msgid "Front"
+msgstr "首页"
+
+msgid "Get posting password"
+msgstr "获取发帖密码"
+
+msgid "Global configuration succesfully updated."
+msgstr "全局配置更新成功。"
+
+msgid "Global options"
+msgstr "全局选项"
+
+msgid "Go"
+msgstr "前往"
+
+msgid "Header image"
+msgstr "页眉图片"
+
+msgid "Heading"
+msgstr "标题"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Hidden"
+msgstr "隐藏"
+
+msgid "hidden."
+msgstr "已隐藏。"
+
+msgid "Hide Directories"
+msgstr "隐藏目录"
+
+msgid "Hide the watched threads box"
+msgstr "隐藏关注的主题框"
 
 msgid "Home"
-msgstr "主页"
+msgstr "首页"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "If checked, the configured ban message will be added to the end of the post."
+msgstr "如果选中，配置的封禁消息将添加到帖子末尾。"
+
+msgid "If checked, this section will be collapsed by default when a user visits the site."
+msgstr "如果选中，用户访问网站时此分区将默认折叠。"
+
+msgid "If enabled, each post will display the poster's ID, which is a representation of their IP address."
+msgstr "如果启用，每个帖子将显示发帖人的 ID，该 ID 是其 IP 地址的表示形式。"
+
+msgid "If set to yes, a catalog.html file will be built with the other files, displaying the original picture of every thread in a box. This will only work on normal/oekaki imageboards."
+msgstr "如果设为“是”，将与其他文件一起生成 catalog.html 文件，在框中显示每个主题的原图。这仅适用于普通/涂鸦式图片板。"
+
+msgid "If set to yes, new threads will not require an image to be posted."
+msgstr "如果设为“是”，新主题将不需要上传图片。"
+
+msgid "If set to yes, this board will appear in bold in the menu"
+msgstr "如果设为“是”，此版块将在菜单中以粗体显示"
+
+msgid "If set to yes, this board will appear in italics in the menu"
+msgstr "如果设为“是”，此版块将在菜单中以斜体显示"
+
+msgid "If set to yes, users will be redirected to the thread they replied to/posted after posting. If set to no, users will be redirected to the first page of the board."
+msgstr "如果设为“是”，用户发帖后将被重定向到他们回复/发布的主题。如果设为“否”，用户将被重定向到版块的第一页。"
+
+msgid "If set to yes, users will not be allowed to enter a name, making everyone appear as Anonymous"
+msgstr "如果设为“是”，用户将不能输入名称，所有人都显示为“匿名”"
+
+msgid "If this is set to <em>Select a Board</em>, <strong>it will not be shown in the menu</strong>."
+msgstr "如果此项设为 <em>选择一个版块</em>，<strong>它将不会显示在菜单中</strong>。"
+
+msgid "Image height"
+msgstr "图片高度"
+
+msgid "Image successfully deleted from your post."
+msgstr "图片已从您的帖子中成功删除。"
+
+msgid "Image width"
+msgstr "图片宽度"
 
 msgid "Image"
-msgstr "图像"
+msgstr "图片"
+
+msgid "Images and embedding"
+msgstr "图片与嵌入"
+
+msgid "Images greater than %1x%2 pixels will be thumbnailed."
+msgstr "大于 %1x%2 像素的图片将生成缩略图。"
 
 msgid "Images"
-msgstr "图像"
+msgstr "图片"
+
+msgid "Important"
+msgstr "重要"
+
+msgid "Improper filetype."
+msgstr "不正确的文件类型。"
+
+msgid "Include header"
+msgstr "包含页眉"
+
+msgid "Incorrect captcha entered."
+msgstr "输入的验证码不正确。"
 
 msgid "Incorrect password."
 msgstr "密码错误。"
 
 msgid "Incorrect username/password."
-msgstr "用户名或者密码错误。"
+msgstr "用户名/密码错误。"
+
+msgid "Index"
+msgstr "索引"
+
+msgid "Inject"
+msgstr "注入"
+
+msgid "Inserted SQL"
+msgstr "已插入 SQL"
+
+msgid "Integer values must be entered correctly."
+msgstr "必须正确输入整数值。"
+
+msgid "Invalid action"
+msgstr "无效操作"
+
+msgid "Invalid ban ID"
+msgstr "无效的封禁 ID"
+
+msgid "Invalid board directory."
+msgstr "无效的版块目录。"
+
+msgid "Invalid board."
+msgstr "无效的版块。"
+
+msgid "Invalid ID"
+msgstr "无效的 ID"
+
+msgid "Invalid image data was sent. The error may be that the applet you are using is configured incorrectly (POO compatibility was be enabled). Save a screenshot of your work in case of continued failure."
+msgstr "发送了无效的图片数据。错误可能是您使用的小程序配置不正确（可能启用了 POO 兼容性）。请保存工作截图，以防持续失败。"
+
+msgid "Invalid MIME type for this filetype."
+msgstr "该文件类型的 MIME 类型无效。"
+
+msgid "Invalid operation."
+msgstr "无效操作。"
+
+msgid "Invalid reply image."
+msgstr "无效的回复图片。"
+
+msgid "Invalid response code"
+msgstr "无效的响应代码"
+
+msgid "Invalid session, please log in again."
+msgstr "无效会话，请重新登录。"
 
 msgid "Invalid session."
-msgstr "无效的SESSION。"
+msgstr "无效会话。"
+
+msgid "Invalid staff ID."
+msgstr "无效的工作人员 ID。"
+
+msgid "Invalid thread ID %s. This may have been caused by the thread recently being deleted."
+msgstr "无效的主题 ID %s。这可能是由于该主题最近被删除导致的。"
+
+msgid "Invalid thread ID. This may have been caused by the thread recently being deleted."
+msgstr "无效的主题 ID。这可能是由于该主题最近被删除导致的。"
+
+msgid "Invalid thread ID."
+msgstr "无效的主题 ID。"
+
+msgid "Invalid video ID."
+msgstr "无效的视频 ID。"
+
+msgid "Invalid video type."
+msgstr "无效的视频类型。"
+
+msgid "IP address and ban type"
+msgstr "IP 地址与封禁类型"
+
+msgid "IP Address Search"
+msgstr "IP 地址搜索"
+
+msgid "IP Address"
+msgstr "IP 地址"
+
+msgid "IP Range Bans"
+msgstr "IP 范围封禁"
+
+msgid "IP Range"
+msgstr "IP 范围"
+
+msgid "IP Search"
+msgstr "IP 搜索"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Is replaced by"
+msgstr "被替换为"
+
+msgid "Janitor"
+msgstr "清洁工"
+
+msgid "Last 50 posts shown."
+msgstr "显示最近 50 个帖子。"
+
+msgid "Last 50 posts"
+msgstr "最近 50 个帖子"
+
+msgid "Last active"
+msgstr "最后活跃"
+
+msgid "Last Post"
+msgstr "最后发帖"
+
+msgid "Load balance password"
+msgstr "负载均衡密码"
+
+msgid "Load balance URL"
+msgstr "负载均衡 URL"
+
+msgid "Locale to use on this board. Leave blank to use the locale defined in config.php"
+msgstr "此版块使用的语言区域。留空以使用 config.php 中定义的语言区域"
+
+msgid "Locale"
+msgstr "语言区域"
 
 msgid "Lock"
 msgstr "锁定"
 
+msgid "Locked thread"
+msgstr "锁定的主题"
+
+msgid "Locked"
+msgstr "已锁定"
+
 msgid "Log in again."
-msgstr "请再次登录。"
+msgstr "再次登录"
+
+msgid "Log in"
+msgstr "登录"
+
+msgid "Log out"
+msgstr "登出"
+
+msgid "Logged in"
+msgstr "已登录"
+
+msgid "Logo"
+msgstr "徽标"
+
+msgid "Looking for orphans in"
+msgstr "在以下位置查找孤立文件"
+
+msgid "Looking for unused images in"
+msgstr "在以下位置查找未使用的图片"
+
+msgid "Manage Ads"
+msgstr "管理广告"
+
+msgid "Manage Boards"
+msgstr "管理版块"
+
+msgid "Manage embeds"
+msgstr "管理嵌入"
+
+msgid "Manage locked threads"
+msgstr "管理已锁定主题"
+
+msgid "Manage stickies"
+msgstr "管理置顶"
 
 msgid "Manage"
 msgstr "管理"
 
+msgid "Mark page"
+msgstr "标记页面"
+
+msgid "Marked for deletion (old)."
+msgstr "已标记为待删除（旧）。"
+
+msgid "Maximum board pages"
+msgstr "最大版块页数"
+
+msgid "Maximum file size allowed is"
+msgstr "允许的最大文件大小为"
+
+msgid "Maximum image size"
+msgstr "最大图片尺寸"
+
+msgid "Maximum message length"
+msgstr "最大消息长度"
+
+msgid "Maximum thread age (Hours)"
+msgstr "主题最大存活时间（小时）"
+
+msgid "Maximum thread replies"
+msgstr "主题最大回复数"
+
+msgid "Maxmimum size of uploaded images, in <strong>bytes</strong>."
+msgstr "上传图片的最大大小，单位为<strong>字节</strong>。"
+
+msgid "Maxmimum thumbnail height"
+msgstr "缩略图最大高度"
+
+msgid "Maxmimum thumbnail width"
+msgstr "缩略图最大宽度"
+
+msgid "Message too long. Click %shere%s to view the full text."
+msgstr "消息过长。点击 %s此处%s 查看完整文本。"
+
 msgid "Message"
-msgstr "内容"
+msgstr "消息"
+
+msgid "MIME type"
+msgstr "MIME 类型"
 
 msgid "Misc"
-msgstr "其他"
+msgstr "杂项"
+
+msgid "Missing a temporary folder."
+msgstr "缺少临时文件夹。"
+
+msgid "Mod"
+msgstr "版主"
 
 msgid "Moderates"
 msgstr "管理"
 
+msgid "Moderating Boards"
+msgstr "版块管理"
+
 msgid "Moderating boards"
-msgstr "管理板块"
+msgstr "管理中的版块"
 
 msgid "Moderation"
-msgstr "管理"
+msgstr "审核"
 
 msgid "Moderator"
-msgstr "猴子"
+msgstr "版主"
 
 msgid "Moderators"
-msgstr "猴子"
+msgstr "版主组"
+
+msgid "Modify staff member"
+msgstr "修改工作人员"
+
+msgid "Modify"
+msgstr "修改"
+
+msgid "ModLog"
+msgstr "管理日志"
+
+msgid "Module settings"
+msgstr "模块设置"
+
+msgid "Modules"
+msgstr "模块"
+
+msgid "More"
+msgstr "更多"
+
+msgid "Move complete."
+msgstr "移动完成。"
+
+msgid "Move Files"
+msgstr "移动文件"
+
+msgid "Move thread"
+msgstr "移动主题"
+
+msgid "Name to display when a name is not attached to a post."
+msgstr "帖子未署名时显示的名称。"
 
 msgid "Name"
 msgstr "名称"
 
-msgid "Next"
-msgstr "下一个"
+msgid "never"
+msgstr "从不"
 
-msgid "No"
-msgstr "否"
+msgid "New image"
+msgstr "新图片"
+
+msgid "New password again"
+msgstr "再次输入新密码"
+
+msgid "New password"
+msgstr "新密码"
+
+msgid "New Thread"
+msgstr "新主题"
+
+msgid "News entry successfully added."
+msgstr "新闻条目添加成功。"
+
+msgid "News Management"
+msgstr "新闻管理"
+
+msgid "News post deleted"
+msgstr "新闻帖子已删除"
+
+msgid "News post edited"
+msgstr "新闻帖子已编辑"
+
+msgid "News"
+msgstr "新闻"
+
+msgid "Next"
+msgstr "下一页"
+
+msgid "No announcements yet."
+msgstr "暂无公告。"
+
+msgid "No Appeal"
+msgstr "无申诉"
+
+msgid "No blotter entries"
+msgstr "暂无记录条目"
+
+msgid "No blotter entries."
+msgstr "暂无记录条目。"
+
+msgid "No boards"
+msgstr "无版块"
+
+msgid "No embedding"
+msgstr "无嵌入"
+
+msgid "No Embedding"
+msgstr "无嵌入"
+
+msgid "No Embeds yet."
+msgstr "暂无嵌入。"
+
+msgid "No FAQ entries yet."
+msgstr "暂无 FAQ 条目。"
+
+msgid "No file was uploaded."
+msgstr "未上传文件。"
 
 msgid "No File"
 msgstr "无文件"
 
-msgid "No boards"
-msgstr "无板块"
+msgid "No locked threads."
+msgstr "没有锁定的主题。"
+
+msgid "No news posts yet."
+msgstr "暂无新闻帖子。"
+
+msgid "No recent images currently need review."
+msgstr "当前没有需要审核的新图片。"
+
+msgid "No reports to show."
+msgstr "没有要显示的举报。"
+
+msgid "No results found for"
+msgstr "未找到与以下内容匹配的结果"
+
+msgid "No Rule entries yet."
+msgstr "暂无规则条目。"
+
+msgid "No stickied threads."
+msgstr "没有置顶的主题。"
+
+msgid "No threads."
+msgstr "没有主题。"
+
+msgid "No valid posts specified."
+msgstr "未指定有效的帖子。"
+
+msgid "No visible boards"
+msgstr "无可视版块"
+
+msgid "No"
+msgstr "否"
+
+msgid "No."
+msgstr "否。"
+
+msgid "None"
+msgstr "无"
+
+msgid "Normal Imageboard"
+msgstr "普通图片板"
+
+msgid "Not Displayed"
+msgstr "不显示"
+
+msgid "NOTICE: You are using the default administrator account. Anyone can log in to this account, so a second administrator account needs to be created. Create another, log in to it, and delete this one."
+msgstr "注意：您正在使用默认管理员账户。任何人都可以登录此账户，因此需要创建第二个管理员账户。请创建另一个账户，登录它，然后删除此默认账户。"
+
+msgid "Number of images to show per page"
+msgstr "每页显示的图片数量"
+
+msgid "Number of posts to show per page"
+msgstr "每页显示的帖子数量"
+
+msgid "Oekaki imageboard"
+msgstr "涂鸦板"
+
+msgid "Old password"
+msgstr "旧密码"
+
+msgid "omitted"
+msgstr "已省略"
+
+msgid "Online now"
+msgstr "当前在线"
+
+msgid "Only moderators of the board and admins can make new posts/replies"
+msgstr "仅限版块版主和管理员可以发布新帖子/回复"
+
+msgid "Only put in the letter(s) of the board directory, no slashes!"
+msgstr "只输入版块目录的字母，不要斜杠！"
+
+msgid "Open images in new window"
+msgstr "在新窗口中打开图片"
+
+msgid "Optimizing all tables in database."
+msgstr "正在优化数据库中的所有表。"
+
+msgid "or"
+msgstr "或"
+
+msgid "Order to show board in menu list, in ascending order."
+msgstr "版块在菜单列表中的显示顺序（升序）。"
+
+msgid "Order to show this section with others, in ascending order"
+msgstr "此分区与其他分区的显示顺序（升序）"
+
+msgid "Order"
+msgstr "顺序"
+
+msgid "Overrides the header set in the config file. Leave blank to use configured global header image. Needs to be a full url including http://. Set to none to show no header image."
+msgstr "覆盖配置文件中的页眉设置。留空以使用配置的全局页眉图片。需要完整的 URL，包括 http://。设置为 none 则不显示页眉图片。"
+
+msgid "Pages"
+msgstr "页数"
+
+msgid "Paint with"
+msgstr "使用以下工具绘制"
+
+msgid "Paint!"
+msgstr "开始绘制！"
+
+msgid "Password successfully changed."
+msgstr "密码修改成功。"
 
 msgid "Password"
 msgstr "密码"
 
+msgid "Placed:"
+msgstr "封禁于："
+
+msgid "Please enter a positive amount of seconds, or zero for a permanent ban."
+msgstr "请输入正的秒数，或输入 0 表示永久封禁。"
+
+msgid "Please enter a search query."
+msgstr "请输入搜索词。"
+
+msgid "Please enter a width/height greater than zero."
+msgstr "请输入大于零的宽度/高度。"
+
+msgid "Please enter a width/height less than or equal to 750."
+msgstr "请输入小于或等于 750 的宽度/高度。"
+
+msgid "Please fill in all required fields."
+msgstr "请填写所有必填字段。"
+
+msgid "Please make sure your file is smaller than %dB"
+msgstr "请确保您的文件小于 %dB"
+
+msgid "Please select a board."
+msgstr "请选择一个版块。"
+
+msgid "Please select only one image to upload."
+msgstr "请只选择一张图片上传。"
+
+msgid "Please wait a moment before posting again."
+msgstr "请稍等片刻再发帖。"
+
+msgid "Popular"
+msgstr "热门"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Post %s successfully deleted."
+msgstr "帖子 %s 已成功删除。"
+
+msgid "Post added."
+msgstr "帖子已添加。"
+
+msgid "Post Number"
+msgstr "帖子编号"
+
+msgid "Post preview"
+msgstr "帖子预览"
+
+msgid "Post successfully deleted."
+msgstr "帖子删除成功。"
+
 msgid "Post"
-msgstr "投稿"
+msgstr "发帖"
+
+msgid "Postbox notice"
+msgstr "发帖框提示"
+
+msgid "Posting a blacklisted link."
+msgstr "发布黑名单链接。"
 
 msgid "Posting mode: Reply"
-msgstr "回复模式"
+msgstr "发帖模式：回复"
+
+msgid "Posting rates (past hour)"
+msgstr "发帖率（过去一小时）"
+
+msgid "Posts per board in past 24hrs"
+msgstr "过去 24 小时内每个版块的帖子数"
+
+msgid "Posts per board in past week"
+msgstr "过去一周内每个版块的帖子数"
 
 msgid "Posts"
-msgstr "投稿"
+msgstr "帖子"
+
+msgid "Presets"
+msgstr "预设"
+
+msgid "Prev"
+msgstr "上一页"
 
 msgid "Preview"
 msgstr "预览"
 
+msgid "Previous bans on this IP"
+msgstr "此 IP 之前的封禁记录"
+
 msgid "Previous"
 msgstr "上一个"
+
+msgid "Proxy list"
+msgstr "代理列表"
+
+msgid "Put <strong>0</strong> for no display, <strong>1</strong> to display."
+msgstr "输入 <strong>0</strong> 表示不显示，<strong>1</strong> 表示显示。"
+
+msgid "Query executed successfully"
+msgstr "查询执行成功"
+
+msgid "Query"
+msgstr "查询"
 
 msgid "Quick Reply"
 msgstr "快速回复"
 
+msgid "Ran cleanup"
+msgstr "已执行清理"
+
+msgid "Raw HTML which will be inserted at the top of each page of the board."
+msgstr "将插入到版块每个页面顶部的原始 HTML。"
+
+msgid "Read this thread from the beginning"
+msgstr "从头阅读此主题"
+
+msgid "Reason"
+msgstr "原因"
+
+msgid "Reason:"
+msgstr "原因："
+
+msgid "Rebuild all html files"
+msgstr "重建所有 HTML 文件"
+
+msgid "Rebuild complete. Took <strong>%d</strong> seconds."
+msgstr "重建完成。耗时 <strong>%d</strong> 秒。"
+
+msgid "Rebuild HTML after edit?"
+msgstr "编辑后重建 HTML？"
+
+msgid "Rebuilt all boards and threads"
+msgstr "已重建所有版块和主题"
+
+msgid "Recent posts"
+msgstr "最新帖子"
+
+msgid "Recently uploaded images"
+msgstr "最近上传的图片"
+
+msgid "Redirect to thread"
+msgstr "重定向到主题"
+
+msgid "Redirecting"
+msgstr "正在重定向"
+
+msgid "Refresh watched threads"
+msgstr "刷新关注的主题"
+
+msgid "Regenerated %s"
+msgstr "已重新生成 %s"
+
+msgid "Regenerated menu pages"
+msgstr "已重新生成菜单页面"
+
+msgid "Regular expression"
+msgstr "正则表达式"
+
+msgid "Remove Frames"
+msgstr "移除框架"
+
 msgid "Remove"
-msgstr "删除"
+msgstr "移除"
+
+msgid "Removed Directory"
+msgstr "已移除目录"
+
+msgid "Removed File"
+msgstr "已移除文件"
+
+msgid "Removed word from wordfilter"
+msgstr "已从词语过滤器中移除词语"
+
+msgid "Removing posts deleted more than one week ago from the database."
+msgstr "正在从数据库中删除一周前已删除的帖子。"
+
+msgid "Render Time"
+msgstr "渲染时间"
+
+msgid "Rep."
+msgstr "回复数"
+
+msgid "Replacement"
+msgstr "替换为"
+
+msgid "Replies displayed per stickied thread (in thread list)"
+msgstr "每个置顶主题显示的回复数（在主题列表中）"
+
+msgid "Replies displayed per thread (in thread list)"
+msgstr "每个主题显示的回复数（在主题列表中）"
 
 msgid "Replies"
 msgstr "回复"
 
+msgid "Reply #%1$s's thread (#%2$s) does not exist! It has been deleted."
+msgstr "回复 #%1$s 的主题（#%2$s）不存在！它已被删除。"
+
+msgid "Reply #%d's thread (#%d) does not exist! It has been deleted."
+msgstr "回复 #%d 的主题（#%d）不存在！它已被删除。"
+
+msgid "reply to"
+msgstr "回复至"
+
 msgid "Reply"
 msgstr "回复"
+
+msgid "Report"
+msgstr "举报"
+
+msgid "Reporter IP"
+msgstr "举报人 IP"
+
+msgid "Reporting allows users to report posts, adding the post to the report list."
+msgstr "举报功能允许用户举报帖子，并将帖子添加到举报列表。"
+
+msgid "Reports"
+msgstr "举报"
+
+msgid "Restore watched threads"
+msgstr "恢复关注的主题"
+
+msgid "Results for"
+msgstr "搜索结果："
+
+msgid "Results from <strong>%s</strong> to <strong>%s</strong> of <strong>%s</strong>"
+msgstr "第 <strong>%s</strong> 至 <strong>%s</strong> 条，共 <strong>%s</strong> 条"
+
+msgid "Results"
+msgstr "结果"
 
 msgid "Return"
 msgstr "返回"
 
+msgid "Rule entry deleted"
+msgstr "规则条目已删除"
+
+msgid "Rule entry edited"
+msgstr "规则条目已编辑"
+
+msgid "Rules entry successfully added."
+msgstr "规则条目添加成功。"
+
+msgid "Rules Management"
+msgstr "规则管理"
+
+msgid "Rules"
+msgstr "规则"
+
+msgid "Run Cleanup"
+msgstr "运行清理"
+
+msgid "Search Help"
+msgstr "搜索帮助"
+
+msgid "Search posts"
+msgstr "搜索帖子"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "second phrase here"
+msgstr "此处为第二个短语"
+
+msgid "Seconds"
+msgstr "秒"
+
+msgid "Section added."
+msgstr "分区已添加。"
+
+msgid "Section deleted."
+msgstr "分区已删除。"
+
+msgid "Section updated."
+msgstr "分区已更新。"
+
+msgid "Section"
+msgstr "分区"
+
+msgid "Select a Board"
+msgstr "选择一个版块"
+
+msgid "Select a Section"
+msgstr "选择一个分区"
+
+msgid "Select Board"
+msgstr "选择版块"
+
+msgid "Selecting <strong>No</strong> will prevent any reading of any page on the level of the boards on the server. It will also act as a global ban."
+msgstr "选择 <strong>否</strong> 将阻止对服务器上任何版块页面的读取。这也相当于全局封禁。"
+
+msgid "Send Appeal"
+msgstr "发送申诉"
+
+msgid "Separate search terms with the word"
+msgstr "使用以下词语分隔搜索词"
+
+msgid "Show All"
+msgstr "显示全部"
+
+msgid "Show Directories"
+msgstr "显示目录"
+
+msgid "Show ID"
+msgstr "显示 ID"
+
+msgid "Show Posting Password"
+msgstr "显示发帖密码"
+
+msgid "Show/Hide"
+msgstr "显示/隐藏"
+
+msgid "Shown below"
+msgstr "如下所示"
+
+msgid "Single IP Bans"
+msgstr "单一 IP 封禁"
+
+msgid "Single IP"
+msgstr "单一 IP"
+
+msgid "Site Administration"
+msgstr "站点管理"
+
+msgid "Site Name"
+msgstr "站点名称"
+
+msgid "Site Styles"
+msgstr "站点样式"
+
 msgid "Size"
 msgstr "大小"
 
+msgid "some phrase here"
+msgstr "此处为某个短语"
+
 msgid "Sorry, a generic error has occurred."
-msgstr "发生了一个奇怪的通常错误。"
+msgstr "抱歉，发生了一个通用错误。"
+
+msgid "Sorry, because of your numerous failed logins, you have been locked out from logging in for 20 minutes. Please wait and then try again."
+msgstr "抱歉，由于您多次登录失败，您已被禁止登录 20 分钟。请稍后再试。"
+
+msgid "Sorry, embed may only be enabled on normal imageboards."
+msgstr "抱歉，嵌入功能只能在普通图片板上启用。"
+
+msgid "Sorry, that filetype is not allowed on this board."
+msgstr "抱歉，该版块不允许此文件类型。"
+
+msgid "Sorry, this board is locked and can not be posted in."
+msgstr "抱歉，此版块已锁定，无法发帖。"
+
+msgid "Sorry, this thread is locked and can not be replied to."
+msgstr "抱歉，此主题已锁定，无法回复。"
+
+msgid "Sorry, your message is too long. Message length: %d, maxmimum allowed length: %d"
+msgstr "抱歉，您的消息过长。消息长度：%d，允许的最大长度：%d"
+
+msgid "Sorry, your search returned zero results."
+msgstr "抱歉，您的搜索未返回任何结果。"
+
+msgid "Source"
+msgstr "来源"
+
+msgid "Space Used"
+msgstr "已用空间"
+
+msgid "Spamfilter"
+msgstr "垃圾过滤"
+
+msgid "SQL query"
+msgstr "SQL 查询"
+
+msgid "Staff member successfully added."
+msgstr "工作人员添加成功。"
+
+msgid "Staff Note"
+msgstr "工作人员备注"
+
+msgid "Staff rights"
+msgstr "工作人员权限"
+
+msgid "Staff successfully deleted"
+msgstr "工作人员删除成功"
+
+msgid "Staff successfully updated"
+msgstr "工作人员更新成功"
+
+msgid "Staff"
+msgstr "工作人员"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid "Stickied thread"
+msgstr "已置顶的主题"
+
+msgid "Stickied"
+msgstr "已置顶"
+
+msgid "Sticky"
+msgstr "置顶"
+
+msgid "Style"
+msgstr "样式"
+
+msgid "Styles"
+msgstr "样式"
 
 msgid "Subject"
-msgstr "題名"
+msgstr "主题"
 
 msgid "Submit"
-msgstr "送信"
+msgstr "提交"
+
+msgid "Successfully marked previous posts as reviewed."
+msgstr "成功将之前的帖子标记为已审核。"
+
+msgid "Supported file types are"
+msgstr "支持的文件类型有"
+
+msgid "System lockout"
+msgstr "系统锁定"
 
 msgid "Tag"
 msgstr "标签"
 
+msgid "Template edited"
+msgstr "模板已编辑"
+
+msgid "Template editor"
+msgstr "模板编辑器"
+
+msgid "Template"
+msgstr "模板"
+
+msgid "Text board"
+msgstr "文本板"
+
+msgid "Text boards may have only one thread with a unique subject. Please pick another."
+msgstr "文本板只能有一个具有唯一标题的主题。请选择其他标题。"
+
+msgid "Text boards only. If enabled, the list of threads displayed on the front page will be formatted differently to be compact."
+msgstr "仅限文本板。如果启用，首页显示的主题列表将以紧凑格式显示。"
+
+msgid "That file already exists on the server."
+msgstr "该文件已存在于服务器上。"
+
+msgid "That file does not match up with the required mime type for that format."
+msgstr "该文件与该格式所需的 MIME 类型不匹配。"
+
+msgid "That file has already been deleted."
+msgstr "该文件已被删除。"
+
+msgid "That ID does not exist."
+msgstr "该 ID 不存在。"
+
+msgid "That ID is a reply, not a thread."
+msgstr "该 ID 是一个回复，不是主题。"
+
+msgid "That IP has already been banned."
+msgstr "该 IP 已被封禁。"
+
+msgid "That is not a Oekaki compatible board!"
+msgstr "这不是兼容涂鸦板的版块！"
+
+msgid "That name is for internal use. Please pick another."
+msgstr "该名称仅供内部使用。请另选一个。"
+
+msgid "That page is for admins only."
+msgstr "该页面仅供管理员访问。"
+
+msgid "That page is for moderators and administrators only."
+msgstr "该页面仅供版主和管理员访问。"
+
+msgid "That post has been cleared as not requiring any deletion."
+msgstr "该帖子已被标记为无需删除。"
+
+msgid "That post is already in the report list."
+msgstr "该帖子已在举报列表中。"
+
+msgid "That thread has yet to be deleted."
+msgstr "该主题尚未被删除。"
+
+msgid "That thread may have been recently deleted."
+msgstr "该主题可能最近已被删除。"
+
+msgid "That video ID has already been posted %shere%s."
+msgstr "该视频 ID 已发布于 %s此处%s。"
+
+msgid "That word already exists."
+msgstr "该词语已存在。"
+
+msgid "That's either not a thread, or it's not deleted."
+msgstr "这要么不是主题，要么未被删除。"
+
+msgid "The 5 newest replies are shown below."
+msgstr "以下是最新的 5 条回复。"
+
+msgid "The amount of time to ban the hash of the image which was posted under this ID. Leave blank to not ban the image, 0 for an infinite global ban, or any number of seconds for that duration of a global ban."
+msgstr "封禁此 ID 下发布图片哈希的时间。留空表示不封禁图片，0 表示无限期全局封禁，任何正数秒数表示该时长的全局封禁。"
+
+msgid "The change will not be apparent until the html files are rebuilt."
+msgstr "在 HTML 文件重建之前，更改不会生效。"
+
+msgid "The data sent was not a JPG or PNG file. Please reattempt your save (and save a screenshot just in case of continued failure)."
+msgstr "发送的数据不是 JPG 或 PNG 文件。请重新尝试保存（并保存截图，以防持续失败）。"
+
+msgid "The data sent was not an image. Please reattempt your save (and save a screenshot just in case of continued failure)."
+msgstr "发送的数据不是图片。请重新尝试保存（并保存截图，以防持续失败）。"
+
+msgid "The description of the image being banned. Not applicable if the above box is blank."
+msgstr "被封禁图片的描述。如果上述框为空，则不适用。"
+
+msgid "The directory of the board."
+msgstr "版块的目录。"
+
+msgid "The extension this will be applied to. <strong>Must be lowercase</strong>"
+msgstr "此设置适用的扩展名。<strong>必须为小写</strong>"
+
+msgid "The first post of this board will recieve this ID."
+msgstr "此版块的第一个帖子将获得此 ID。"
+
+msgid "The full http:// URL to the load balance script for this board. The script will handle file uploads, and creation of thumbnails. Only one script per board can be used, and there must be a src and thumb dir in the same folder as the script. Set to nothing to disable."
+msgstr "此版块负载均衡脚本的完整 http:// URL。该脚本将处理文件上传和缩略图生成。每个版块只能使用一个脚本，并且脚本所在文件夹中必须有 src 和 thumb 目录。留空以禁用。"
+
+msgid "The height of the image. Needs to be set to prevent the page from jumping around while images load."
+msgstr "图片的高度。需要设置以防止图片加载时页面跳动。"
+
+msgid "The image which will be used, found in inc/filetypes."
+msgstr "将使用的图片，位于 inc/filetypes 中。"
+
+msgid "The load balancer script stopped unexpectedly."
+msgstr "负载均衡脚本意外停止。"
+
+msgid "The load balancer script was unable to copy the file you uploaded."
+msgstr "负载均衡脚本无法复制您上传的文件。"
+
+msgid "The load balancer script was unable to create the thumbnail for that image."
+msgstr "负载均衡脚本无法为该图片创建缩略图。"
+
+msgid "The MIME type which must be present with an image uploaded in this type. Leave blank to disable."
+msgstr "以此类型上传图片时必须存在的 MIME 类型。留空以禁用。"
+
+msgid "The name of the board."
+msgstr "版块的名称。"
+
+msgid "The name of the section"
+msgstr "分区的名称"
+
+msgid "The number of replies a thread can have before autosaging to the back of the board."
+msgstr "主题在自动沉底到版块后面之前可以拥有的回复数。"
+
+msgid "The old password you provided did not match the current one."
+msgstr "您提供的旧密码与当前密码不符。"
+
+msgid "The password which will be passed to the script above. The script must have this same password entered at the top, in the configuration area."
+msgstr "将传递给上述脚本的密码。该脚本必须在顶部的配置区域中输入相同的密码。"
+
+msgid "The passwords of the load balancer password in the board configuration and the load receiver script differ."
+msgstr "版块配置中的负载均衡密码与负载接收脚本的密码不同。"
+
+msgid "The proxy list is assumed to be in plaintext *.*.*.*:port or *.*.*.* format, one IP per line."
+msgstr "代理列表应为纯文本格式，每行一个 IP，格式为 *.*.*.*:port 或 *.*.*.*。"
+
+msgid "The second password did not match the first."
+msgstr "第二次输入的密码与第一次不匹配。"
+
+msgid "The section the board is in. This is used for displaying the list of boards on the top and bottom of pages."
+msgstr "版块所属的分区。用于在页面顶部和底部显示版块列表。"
+
+msgid "The server has encountered an error saving your image. Save a screenshot of your work in case of continued failure."
+msgstr "服务器保存您的图片时遇到错误。请保存工作截图，以防持续失败。"
+
+msgid "The style which will be set when the user first visits the board."
+msgstr "用户首次访问版块时将设置的样式。"
+
+msgid "The type of ban. A single IP can be banned by providing the full address. A whitelist ban prevents that IP from being banned. An IP range can be banned by providing the IP range you would like to ban, in this format: 123.123.12"
+msgstr "封禁类型。提供完整地址可封禁单一 IP。白名单封禁可防止该 IP 被封禁。提供要封禁的 IP 范围可封禁 IP 段，格式如：123.123.12"
+
+msgid "The type of posts which will be accepted on this board. A normal imageboard will feature image and extended format posts, a text board will have no images, an Oekaki board will allow users to draw images and use them in their posts, and an Upload imageboard will be styled more towards file uploads."
+msgstr "此版块接受的帖子类型。普通图片板支持图片和扩展格式帖子；文本板无图片；涂鸦板允许用户绘制图片并在帖子中使用；上传图片板更侧重于文件上传。"
+
+msgid "The type of posts which will be accepted on this board. A normal imageboard will feature image and extended format posts, a text board will have no images, and an Oekaki board will allow users to draw images and use them in their posts."
+msgstr "此版块接受的帖子类型。普通图片板支持图片和扩展格式帖子；文本板无图片；涂鸦板允许用户绘制图片并在帖子中使用。"
+
+msgid "The uploaded file exceeds the upload_max_filesize directive (%s) in php.ini."
+msgstr "上传的文件超过了 php.ini 中的 upload_max_filesize 指令（%s）。"
+
+msgid "The uploaded file was only partially uploaded."
+msgstr "上传的文件仅部分完成。"
+
+msgid "The width of the image. Needs to be set to prevent the page from jumping around while images load."
+msgstr "图片的宽度。需要设置以防止图片加载时页面跳动。"
+
+msgid "There are currently no bans"
+msgstr "当前没有封禁"
+
+msgid "There are currently no bans."
+msgstr "当前没有封禁。"
+
+msgid "There are currently no filetypes."
+msgstr "当前没有文件类型。"
+
+msgid "There are currently no sections."
+msgstr "当前没有分区。"
+
+msgid "There are currently no threads to display."
+msgstr "当前没有要显示的主题。"
+
+msgid "There is already a file with that name."
+msgstr "已存在同名文件。"
+
+msgid "There was an error during install, and the ads table didn't get populated."
+msgstr "安装过程中发生错误，广告表未填充数据。"
+
+msgid "There was an error in trying to delete your post"
+msgstr "尝试删除您的帖子时出错"
+
+msgid "There was no image data sent. Please reattempt your save (and save a screenshot just in case of continued failure)."
+msgstr "未发送图片数据。请重新尝试保存（并保存截图，以防持续失败）。"
+
+msgid "This board does not allow post reporting."
+msgstr "此版块不允许举报帖子。"
+
+msgid "This can be left blank, however it will appear at the very top of the list"
+msgstr "此项可留空，但将显示在列表的最顶部"
+
+msgid "This can be left blank. It will be reset with the default height set in config.php"
+msgstr "此项可留空。将使用 config.php 中设置的默认高度重置"
+
+msgid "This can be left blank. It will be reset with the default width set in config.php"
+msgstr "此项可留空。将使用 config.php 中设置的默认宽度重置"
+
+msgid "This file is disabled because KU_STATICMENU is set to true."
+msgstr "此文件已禁用，因为 KU_STATICMENU 设置为 true。"
+
+msgid "This message will be shown only on this page and only to staff, not to the user."
+msgstr "此消息将仅在此页面上显示给工作人员，不会显示给用户。"
+
+msgid "This post has been deleted."
+msgstr "此帖子已被删除。"
+
+msgid "Thread %s on /%s/"
+msgstr "/%2$s/ 中的主题 %1$s"
+
+msgid "Thread %s successfully deleted."
+msgstr "主题 %s 删除成功。"
+
+msgid "Thread successfully deleted."
+msgstr "主题删除成功。"
+
+msgid "Thread successfully locked."
+msgstr "主题锁定成功。"
+
+msgid "Thread successfully stickied."
+msgstr "主题置顶成功。"
+
+msgid "Thread successfully un-stickied"
+msgstr "主题取消置顶成功"
+
+msgid "Thread successfully unlocked."
+msgstr "主题解锁成功。"
+
 msgid "Thread"
-msgstr "帖子"
+msgstr "主题"
+
+msgid "Threads displayed per page (in thread list)"
+msgstr "每页显示的主题数（在主题列表中）"
+
+msgid "Threads which reach this page or further will be marked to be deleted in two hours."
+msgstr "达到此页或更靠后页面的主题将被标记为两小时后删除。"
 
 msgid "Threads"
-msgstr "帖子"
+msgstr "主题"
+
+msgid "Thumbnail displayed, click image for full size."
+msgstr "显示缩略图，点击图片查看原图。"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "To access Kusaba variables, use {%%KU_VARNAME}, for example {%%KU_BOARDSPATH} would be replaced with %s"
+msgstr "要访问 Kusaba 变量，请使用 {%%KU_VARNAME}，例如 {%%KU_BOARDSPATH} 将被替换为 %s"
+
+msgid "to ban page"
+msgstr "前往封禁页面"
+
+msgid "To find a phrase at the end of a post's message:"
+msgstr "要查找帖子消息末尾的短语："
+
+msgid "To find a single phrase anywhere in a post's message, use:"
+msgstr "要查找帖子消息中任意位置的单个短语，请使用："
+
+msgid "To find two phrases anywhere in a post's message, use:"
+msgstr "要查找帖子消息中任意位置的两个短语，请使用："
+
+msgid "To"
+msgstr "到"
+
+msgid "Took"
+msgstr "耗时"
+
+msgid "Total posts per board"
+msgstr "每个版块的总帖子数"
+
+msgid "Total"
+msgstr "总计"
+
+msgid "Translation"
+msgstr "翻译"
+
+msgid "Trial"
+msgstr "试用"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Un-Hide Thread"
+msgstr "取消隐藏主题"
+
+msgid "Un-watch"
+msgstr "取消关注"
+
+msgid "Unable to clear cache: you do not have caching enabled."
+msgstr "无法清除缓存：您未启用缓存。"
+
+msgid "Unable to connect to"
+msgstr "无法连接到"
+
+msgid "Unable to create directories."
+msgstr "无法创建目录。"
+
+msgid "Unable to delete board."
+msgstr "无法删除版块。"
+
+msgid "Unable to find record of your IP being banned."
+msgstr "未找到您的 IP 被封禁的记录。"
+
+msgid "Unable to find records of any posts matching that quote syntax."
+msgstr "未找到符合该引用语法的帖子记录。"
+
+msgid "Unable to locate a board named"
+msgstr "无法找到名为"
+
+msgid "Unable to locate a filetype with that ID."
+msgstr "无法找到具有该 ID 的文件类型。"
+
+msgid "Unable to locate a section with that ID."
+msgstr "无法找到具有该 ID 的分区。"
+
+msgid "Unable to locate that word."
+msgstr "无法找到该词语。"
+
+msgid "Unable to open the modules directory!"
+msgstr "无法打开模块目录！"
+
+msgid "Unable to read uploaded file during thumbnailing."
+msgstr "生成缩略图时无法读取上传的文件。"
+
+msgid "Unable to report post. Please go back and try again."
+msgstr "无法举报帖子。请返回重试。"
+
+msgid "Unbanned"
+msgstr "已解封"
+
+msgid "Unique user posts per board"
+msgstr "每个版块的独立用户发帖数"
+
+msgid "Unknown File Error"
+msgstr "未知文件错误"
+
+msgid "Unlock"
+msgstr "解锁"
+
+msgid "Unlocked thread"
+msgstr "已解锁的主题"
+
+msgid "Unstickied thread"
+msgstr "已取消置顶的主题"
+
+msgid "Unsticky"
+msgstr "取消置顶"
+
+msgid "Upating pages."
+msgstr "正在更新页面。"
+
+msgid "Update and regenerate board"
+msgstr "更新并重新生成版块"
+
+msgid "Update successful."
+msgstr "更新成功。"
+
+msgid "Update without regenerating board"
+msgstr "更新但不重新生成版块"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Updated board configuration"
+msgstr "已更新版块配置"
+
+msgid "Updated global configuration"
+msgstr "已更新全局配置"
+
+msgid "Updated staff member"
+msgstr "已更新工作人员"
+
+msgid "Updated word on wordfilter"
+msgstr "已更新词语过滤器中的词语"
+
+msgid "Upload type"
+msgstr "上传类型"
+
+msgid "Use animation?"
+msgstr "使用动画？"
+
+msgid "Use Default"
+msgstr "使用默认"
 
 msgid "Username"
 msgstr "用户名"
 
+msgid "Video URL Start"
+msgstr "视频 URL 起始部分"
+
+msgid "View all bans"
+msgstr "查看所有封禁"
+
+msgid "View animation"
+msgstr "查看动画"
+
+msgid "View Announcements"
+msgstr "查看公告"
+
+msgid "View Appeals"
+msgstr "查看申诉"
+
+msgid "View catalog"
+msgstr "查看目录"
+
+msgid "View deleted thread"
+msgstr "查看已删除的主题"
+
+msgid "View last %d bans"
+msgstr "查看最近 %d 条封禁"
+
+msgid "View Reports"
+msgstr "查看举报"
+
+msgid "View Thread (including deleted)"
+msgstr "查看主题（包括已删除）"
+
+msgid "View Threads (including deleted)"
+msgstr "查看主题（包括已删除）"
+
+msgid "View"
+msgstr "查看"
+
+msgid "View/Add/Remove bans"
+msgstr "查看/添加/移除封禁"
+
+msgid "Viewed disk space used"
+msgstr "查看已用磁盘空间"
+
+msgid "Visit <a href=\"http://wiki.dwoo.org/\">http://wiki.dwoo.org/</a> for syntax information."
+msgstr "访问 <a href=\"http://wiki.dwoo.org/\">http://wiki.dwoo.org/</a> 获取语法信息。"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Watched Threads"
+msgstr "关注的主题"
+
+msgid "Welcome"
+msgstr "欢迎"
+
+msgid "What embed sites are allowed on this board. Only useful on board with embedding enabled."
+msgstr "此版块允许哪些嵌入网站。仅在启用嵌入的版块上有效。"
+
+msgid "What filetypes users are allowed to upload."
+msgstr "允许用户上传哪些文件类型。"
+
+msgid "When adding an embed, please check %s and check if there is a tutorial image for the site you are adding. Put this image in the /inc/embedhelp/ folder, or create your own in this folder if one does not exist. The image must be the same as the site name in all lowercase."
+msgstr "添加嵌入时，请检查 %s 并确认是否有针对您要添加站点的教程图片。将该图片放入 /inc/embedhelp/ 文件夹，如果不存在则在此文件夹中创建自己的图片。图片名称必须与站点名称相同，且全小写。"
+
+msgid "Whether or not the user(s) affected by this ban will be allowed to read the boards."
+msgstr "受此封禁影响的用户是否被允许阅读版块。"
+
+msgid "Whether or not to allow embedding of videos."
+msgstr "是否允许嵌入视频。"
+
+msgid "Whitelist"
+msgstr "白名单"
+
+msgid "Whitelisted IPs"
+msgstr "白名单 IP"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "will expire on"
+msgstr "将于"
+
+msgid "will not expire"
+msgstr "永不过期"
+
+msgid "Word successfully added."
+msgstr "词语添加成功。"
+
+msgid "Word successfully removed."
+msgstr "词语移除成功。"
+
+msgid "Word successfully updated."
+msgstr "词语更新成功。"
+
+msgid "Word"
+msgstr "词语"
+
+msgid "Wordfilter"
+msgstr "词语过滤器"
+
 msgid "Yes"
 msgstr "是"
 
-msgid "and"
-msgstr "和"
+msgid "You are banned from posting on:"
+msgstr "您被禁止在以下版块发帖："
 
-msgid "log in"
-msgstr "登入"
+msgid "YOU ARE BANNED"
+msgstr "您已被封禁"
 
-msgid "log out"
-msgstr "登出"
+msgid "You are currently posting faster than the configured minimum post delay allows."
+msgstr "您当前的发帖速度超过了配置的最小发帖间隔。"
 
-msgid "omitted"
-msgstr "省略"
+msgid "You are not a moderator of this board."
+msgstr "您不是此版块的版主。"
 
-msgid "translator-credits"
-msgstr ""
-"冴月麟 2013"
+msgid "YOU ARE NOT BANNED!"
+msgstr "您未被封禁！"
 
+msgid "You can only delete posts from boards you moderate."
+msgstr "您只能删除您管理的版块中的帖子。"
+
+msgid "You can only make board specific bans to boards which you moderate."
+msgstr "您只能对您管理的版块进行版块特定的封禁。"
+
+msgid "You do not moderate any boards."
+msgstr "您不管理任何版块。"
+
+msgid "You don't follow the rules."
+msgstr "您没有遵守规则。"
+
+msgid "You have been banned for posting Child Pornography. Your IP has been logged, and the proper authorities will be notified."
+msgstr "您因发布儿童色情内容而被封禁。您的 IP 已被记录，并将通知相关当局。"
+
+msgid "You have been banned from posting on"
+msgstr "您已被禁止在以下版块发帖"
+
+msgid "You have been successfully logged out."
+msgstr "您已成功登出。"
+
+msgid "You may <strong>not</strong> appeal this ban."
+msgstr "您<strong>不能</strong>对此封禁提出申诉。"
+
+msgid "You may appeal this ban in"
+msgstr "您可以在"
+
+msgid "You may now appeal this ban."
+msgstr "您现在可以对此封禁提出申诉。"
+
+msgid "You must enter a heading as well as a post."
+msgstr "您必须输入标题和帖子内容。"
+
+msgid "You must enter a subject as well as a post."
+msgstr "您必须输入主题和帖子内容。"
+
+msgid "You must enter a subject."
+msgstr "您必须输入主题。"
+
+msgid "You must enter code."
+msgstr "您必须输入代码。"
+
+msgid "You searched for"
+msgstr "您搜索了"
+
+msgid "Your appeal is currently pending review."
+msgstr "您的申诉正在等待审核。"
+
+msgid "Your appeal was reviewed and denied. You may <strong>not</strong> appeal this ban again."
+msgstr "您的申诉已被审核并拒绝。您<strong>不能</strong>再次对此封禁提出申诉。"
+
+msgid "Your ban was placed on"
+msgstr "您的封禁开始于"
+
+msgid "Your image"
+msgstr "您的图片"
+
+msgid "Your IP address is"
+msgstr "您的 IP 地址是"
+
+msgid "Your post already doesn't have an image!"
+msgstr "您的帖子已经不含图片了！"
+
+msgid "Your post contains one or more illegal characters."
+msgstr "您的帖子包含一个或多个非法字符。"
+
+msgid "Your posting password"
+msgstr "您的发帖密码"
